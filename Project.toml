@@ -1,0 +1,7 @@
+name = "KeithleyControl"
+uuid = "6ee92c8e-ecd1-11e8-2613-0b91eb4cf327"
+authors = ["Connor Hayward <connor.hayward@hotmail.co.uk>"]
+version = "0.1.0"
+
+[deps]
+Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
