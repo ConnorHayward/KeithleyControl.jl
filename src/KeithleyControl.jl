@@ -164,7 +164,7 @@ end
 export show_device_information
 
 function set_power_state(device::Keithley_Module,state::Real)
-    cmd = String()
+    cmd = "a"
     if state == 0
         cmd = ":SOURce:VOLTage:STATe OFF"
     else
